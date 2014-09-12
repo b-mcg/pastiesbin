@@ -36,6 +36,8 @@ Example Usage:
 
         pastiesbin --lines 1 12 --expire 10M --name "A Simple Test" --privacy 0 --syntax scala source_file.scala
 
+   Note: Don't worry about the SLF4J failures, they're some logging library that dispatch uses but isn't necessary
+
    In order to use this program you do need a valid pastebin developer key which can be easily obtained by creating an account with them.
    After obtaining a key, you need to edit the src/main/scala/Paste.scala file and replace the "Your developer key here" part with your developer
    key.  You should do this before you run the stage command.

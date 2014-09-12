@@ -49,7 +49,7 @@ object Main extends App {
             [-p|--privacy=<privacy setting>] [-s|--syntax=<code name>] file
            """.stripMargin)
 
-    version(s"pastiesbin $Version")
+    version(s"\npastiesbin $Version")
 
     // Define command line arguments
     val lines       = opt[List[Int]]("lines", short = 'l', default = Some(List[Int]()), descr = "Lines from file to read and paste", required = false)

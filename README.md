@@ -11,6 +11,7 @@ file is also supported.
 Installation:
 -------------
 -------------
+
     *Note: This is compiled with scala 2.11.1
     
     Start sbt from the main directory:
@@ -32,6 +33,7 @@ Example Usage:
 --------------
 
    Assuming you've created an alias:
+
         pastiesbin --lines 1 12 --expire 10M --name "A Simple Test" --privacy 0 --syntax scala source_file.scala
 
    In order to use this program you do need a valid pastebin developer key which can be easily obtained by creating an account with them.

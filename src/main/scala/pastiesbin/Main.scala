@@ -6,6 +6,7 @@ import scala.language.reflectiveCalls
 import pasties.PasteBinAPI
 import scala.util.{Try, Success, Failure}
 import pastiesbin.Paste._
+import sys.exit
 
 /**
   * Author  = b-mcg
@@ -108,4 +109,5 @@ object Main extends App {
   }
 
   makePaste()
+  exit
 }
